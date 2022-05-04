@@ -1,0 +1,21 @@
+# Tokenization of paragraphs/sentences
+import nltk
+nltk.download()
+
+
+
+para = 'The Supreme Court heard its last arguments of the term a week ago and has entered a quiet period. 
+It issued a single decision on Monday, in a case on religion. 
+The justices are not scheduled to meet together in private until May 12. 
+The next scheduled day on which decisions may be issued is May 16, although the court can certainly add additional days. 
+Its practice in argued cases is to announce ahead of time that decisions will be issued on a given day without specifying which ones.  
+There are about 37 decisions and two months left.'
+
+
+# Tokenizing sentences  - CONVERTING THE SENTENCE PARAGRAPH INTO SENTENCE
+sentences = nltk.sent_tokenize(para)
+
+# Tokenizing words - CONVERTING THE SENTENCE PARAGRAPH INTO SENTENCE
+words = nltk.word_tokenize(para)
+
+print(word)
